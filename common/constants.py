@@ -1,0 +1,4 @@
+
+CRAWL_STATUS_CRAWLING = 'crawling'
+CRAWL_STATUS_SUCCESS = 'success'
+CRAWL_STATUS_FAILED = 'failed'
