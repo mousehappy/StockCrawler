@@ -7,6 +7,7 @@ from database.db_manage.DBManager import DBManager, CrawlManageSchedule
 START_CRAWL_TIME = datetime.time(hour=20)
 
 
+
 class DailyInitialCrawl(DBManager):
     def need_crawl(self):
         session = DailyInitialCrawl.get_session()
